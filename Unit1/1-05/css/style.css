@@ -1,0 +1,13 @@
+#my-header {
+  background-color: rgba(191, 89, 216, 0.363);
+  color: blue;
+  padding: 30px;
+  text-align: right;
+  border-radius: 20px;
+  border: 7px double blueviolet;
+}
+
+img {
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
