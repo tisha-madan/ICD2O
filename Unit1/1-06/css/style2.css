@@ -1,0 +1,24 @@
+th,
+td {
+  border: 1px solid lightblue;
+  text-align: center;
+  color: darkcyan;
+}
+
+.list {
+  text-align: justify;
+  color: green;
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  color: rebeccapurple;
+}
+
+h3 {
+  color: rebeccapurple;
+  margin: 10px;
+}
