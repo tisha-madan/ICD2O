@@ -1,10 +1,69 @@
 body {
   font-family: cursive;
+  background-color: rgba(255, 192, 203, 0.541);
 }
 
 .indexHead {
-  background-image: url('https: //images.pexels.com/photos/460672/pexels-photo-460672.jpeg?cs=srgb&dl=pexels-pixabay-460672.jpg&fm=jpg');
+  /*background-image: url('https: //images.pexels.com/photos/460672/pexels-photo-460672.jpeg?cs=srgb&dl=pexels-pixabay-460672.jpg&fm=jpg');*/
   text-align: center;
   padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin: 10px;
+  color: white;
+  background-color: lightpink;
+}
 
+#info {
+  margin: auto;
+  padding: 10px;
+  text-align: right;
+  font-size: 25px;
+  line-height: 1.5;
+  color: white;
+}
+
+img {
+  width: 400px;
+  height: 350px;
+  border-radius: 20px;
+  float: left;
+  padding: 10px;
+}
+
+.demo-list-three {
+  width: 650px;
+}
+
+#lists {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+
+}
+
+span {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  margin: auto;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  align-items: center;
+  margin: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }

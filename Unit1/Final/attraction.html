@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>City Hopper</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-pink.min.css" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.red-indigo.min.css" />
   <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
@@ -16,5 +16,105 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">City Hopper</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="./index.html">Home</a>
+          <a class="mdl-navigation__link" href="./attraction.html">Attractions</a>
+          <a class="mdl-navigation__link" href="./search.html">Search</a>
+          <a class="mdl-navigation__link" href="">XX</a>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <div class="indexHead">
+    <h1>Tourist Attractions</h1>
+    <p>Experience the Wonder of London</p>
+  </div>
+  <!-- List with secondary info and action -->
+  <ul class="demo-list-three mdl-list" id="lists">
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">Tower of London</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          The Tower of London, officially His Majesty's Royal Palace and Fortress of the Tower of London, is a historic
+          citadel
+          and castle on the north bank of the River Thames.
+        </span>
+      </span>
+    </li>
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons  mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">Buckingham Palace</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          Buckingham Palace is a royal residence and the administrative headquarters of the monarch of the United
+          Kingdom.
+        </span>
+      </span>
+    </li>
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons  mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">Big Ben</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          Big Ben is the nickname for the Great Bell within the Elizabeth Tower, a famous landmark in the Houses of
+          Parliament.
+        </span>
+      </span>
+    </li>
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons  mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">Tower bridge</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          Built with giant movable roadways that lift up for passing ships, it is to this day considered an engineering
+          marvel and
+          beyond being one of London's favourite icons.
+        </span>
+      </span>
+    </li>
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons  mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">Camden Market</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          Located by the Regent's Canal, it is renowned for its artisan stalls, vintage clothing, and eclectic foods.
+          Here, you can find everything from handmade jewellery to home decor,
+        </span>
+      </span>
+    </li>
+    <li class="mdl-list__item mdl-list__item--three-line">
+      <span class="mdl-list__item-primary-content">
+        <i class="material-icons  mdl-list__item-avatar">attractions</i>
+        <span style=" color:white;">London Eye</span>
+        <span style=" color:white;" class="mdl-list__item-text-body">
+          At 135m, The London Eye is the world's largest cantilevered observation wheel. It was conceived and designed
+          by Marks
+          Barfield Architects and was launched in 2000.
+        </span>
+      </span>
+    </li>
+  </ul>
+  <div class="column">
+    <div class="row">
+      <img id="pic1" src="./images/6f4798b48e1b52fd8850cd1170c5f796.webp">
+      <img id="pic1" src="./images/camden-market.jpg">
+      <img id="pic1" src="./images/towerBridge.jpg">
+    </div>
+    <div class="row">
+      <img id="pic1" src="./images/bigben.jpg">
+      <img id="pic1" src="./images/palace.jpg">
+      <img id="pic1" src="./images/Tower-of-London.jpg">
+    </div>
+  </div>
 </body>
 </html>
