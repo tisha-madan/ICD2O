@@ -4,14 +4,15 @@ body {
 }
 
 .indexHead {
-  /*background-image: url('https: //images.pexels.com/photos/460672/pexels-photo-460672.jpeg?cs=srgb&dl=pexels-pixabay-460672.jpg&fm=jpg');*/
+  background-image: url('https://media.istockphoto.com/id/506716297/vector/london-skyline-vector.jpg?s=612x612&w=0&k=20&c=dC_5mlAnAd9h-IMISh-T48qgx0gF0qYVP57uJnTMYxs=');
   text-align: center;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 20px;
   margin: 10px;
-  color: white;
-  background-color: lightpink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #info {
@@ -59,11 +60,44 @@ span {
 .column {
   flex: 50%;
   padding: 0 4px;
-  align-items: center;
   margin: auto;
 }
 
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+}
+
+#pic1 {
+  margin: auto;
+  gap: 10px;
+}
+
+.question {
+  text-align: center;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }
