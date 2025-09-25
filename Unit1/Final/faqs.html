@@ -39,41 +39,46 @@
     <h4>Got questions? We've got answers</h4>
   </div>
 
-  <button class="accordion">Section 1</button>
+  <button class="accordion">What payment methods do you accept?</button>
   <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+    <p>We accept credit, debit and oline payments. No cash, sorry</p>
   </div>
 
-  <button class="accordion">Section 2</button>
+  <button class="accordion">What is your cancellation policy?</button>
   <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+    <p>You can cancel your trip before 2 weeks for no cost. You may also cancel your bookings 5 days in advance for half
+      price refund. </p>
   </div>
 
-  <button class="accordion">Section 3</button>
+  <button class="accordion">When will I receive my refund?</button>
   <div class="panel">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.</p>
+    <p>You will receive your refund in 7-10 business days</p>
+  </div>
+
+  <button class="accordion">What are your customer service hours?</button>
+  <div class="panel">
+    <p>Our customer service is available on weekdays 8am to 7pm</p>
+  </div>
+
+  <button class="accordion">Do you offer travel insurance?</button>
+  <div class="panel">
+    <p>Yes, we offer travel insurance to cover for emergenies and lost baggage. You can add this while checking out.</p>
   </div>
   <script>
     var acc = document.getElementsByClassName("accordion");
-      var i;
+    var i;
 
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var panel = this.nextElementSibling;
-          if (panel.style.display === "block") {
-            panel.style.display = "none";
-          } else {
-            panel.style.display = "block";
-          }
-        });
-      }
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
   </script>
 </body>
 </html>
